@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ColorMatch.colormatch"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundImageSource="HA.png">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+               <!-- <Label Text="MATCH THE COLOR SEQUENCE" TextColor="WhiteSmoke" FontAttributes="Bold" FontSize="Large" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"/>-->
+
+                <StackLayout Grid.Row="1" Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                    <BoxView Color="Coral" WidthRequest="30" HeightRequest="60" x:Name="color1" />
+                    <BoxView Color="LavenderBlush" WidthRequest="30" HeightRequest="60" x:Name="color2"/>
+                    <BoxView Color="Red" WidthRequest="30" HeightRequest="60" x:Name="color3"/>
+                    <BoxView Color="Navy" WidthRequest="30" HeightRequest="60" x:Name="color4"/>
+                    <BoxView Color="Brown" WidthRequest="30" HeightRequest="60" x:Name="color5"/>
+                    <BoxView Color="Turquoise" WidthRequest="30" HeightRequest="60" x:Name="color6"/>
+                    <BoxView Color="PaleVioletRed" WidthRequest="30" HeightRequest="60" x:Name="color7"/>
+                    <BoxView Color="DarkGray" WidthRequest="30" HeightRequest="60" x:Name="color8"/>
+                    <BoxView Color="PeachPuff" WidthRequest="30" HeightRequest="60" x:Name="color9"/>
+                </StackLayout>
+
+              
+                <Label Grid.Row="3" Text="GUESS THE SQUARE COLOR IN ORDER" TextColor="WhiteSmoke" FontAttributes="Bold" FontSize="Large" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"/>
+            </Grid>
+
+            <Grid x:Name="grid" BackgroundColor="Transparent">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Button Text="" BackgroundColor="Maroon" Clicked="OnButtonClicked" Grid.Row="1" Grid.Column="0" x:Name="button1" CornerRadius="50" Padding="30" Margin="10,0,0,0"  BorderColor="#d4e4ff" BorderWidth="3"/>
+                <Button Text="" BackgroundColor="Maroon" Clicked="OnButtonClicked" Grid.Row="1" Grid.Column="1" x:Name="button2" CornerRadius="30" Padding="30" BorderColor="#72D5D0" BorderWidth="3" />
+                <Button Text="" BackgroundColor="Maroon" Clicked="OnButtonClicked" Grid.Row="1" Grid.Column="2" x:Name="button3" CornerRadius="50" Padding="30" Margin="0,0,10,0"  BorderColor="#c8f2ff" BorderWidth="3"/>
+
+                <Button Text="" BackgroundColor="Maroon" Clicked="OnButtonClicked" Grid.Row="2" Grid.Column="0" x:Name="button4" CornerRadius="50" Padding="30" Margin="10,0,0,0"  BorderColor="#ff6289" BorderWidth="3"/>
+                <Button Text="" BackgroundColor="Maroon" Clicked="OnButtonClicked" Grid.Row="2" Grid.Column="1" x:Name="button5" CornerRadius="30" Padding="30"  BorderColor="#96D449" BorderWidth="3"/>
+                <Button Text="" BackgroundColor="Maroon" Clicked="OnButtonClicked" Grid.Row="2" Grid.Column="2" x:Name="button6" CornerRadius="50" Padding="30" Margin="0,0,10,0"  BorderColor="#e0c5ff" BorderWidth="3"/>
+
+                <Button Text="" BackgroundColor="Maroon" Clicked="OnButtonClicked" Grid.Row="3" Grid.Column="0" x:Name="button7" CornerRadius="50" Padding="30" Margin="10,0,0,0"  BorderColor="#ffdcfc" BorderWidth="3"/>
+                <Button Text="" BackgroundColor="Maroon" Clicked="OnButtonClicked" Grid.Row="3" Grid.Column="1" x:Name="button8" CornerRadius="30" Padding="30"  BorderColor="#ff9248" BorderWidth="3"/>
+                <Button Text="" BackgroundColor="Maroon" Clicked="OnButtonClicked" Grid.Row="3" Grid.Column="2" x:Name="button9" CornerRadius="50" Padding="30" Margin="0,0,10,0"  BorderColor="#ffffbb" BorderWidth="3"/>
+            
+                
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

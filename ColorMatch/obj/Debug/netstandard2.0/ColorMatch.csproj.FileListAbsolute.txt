@@ -1,0 +1,15 @@
+C:\Users\Administrator\source\repos\ColorMatch\ColorMatch\ColorMatch\bin\Debug\netstandard2.0\ColorMatch.deps.json
+C:\Users\Administrator\source\repos\ColorMatch\ColorMatch\ColorMatch\bin\Debug\netstandard2.0\ColorMatch.dll
+C:\Users\Administrator\source\repos\ColorMatch\ColorMatch\ColorMatch\bin\Debug\netstandard2.0\ref\ColorMatch.dll
+C:\Users\Administrator\source\repos\ColorMatch\ColorMatch\ColorMatch\bin\Debug\netstandard2.0\ColorMatch.pdb
+C:\Users\Administrator\source\repos\ColorMatch\ColorMatch\ColorMatch\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Administrator\source\repos\ColorMatch\ColorMatch\ColorMatch\obj\Debug\netstandard2.0\colormatch.xaml.g.cs
+C:\Users\Administrator\source\repos\ColorMatch\ColorMatch\ColorMatch\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Administrator\source\repos\ColorMatch\ColorMatch\ColorMatch\obj\Debug\netstandard2.0\ColorMatch.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\ColorMatch\ColorMatch\ColorMatch\obj\Debug\netstandard2.0\ColorMatch.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\ColorMatch\ColorMatch\ColorMatch\obj\Debug\netstandard2.0\ColorMatch.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\ColorMatch\ColorMatch\ColorMatch\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Administrator\source\repos\ColorMatch\ColorMatch\ColorMatch\obj\Debug\netstandard2.0\ColorMatch.dll
+C:\Users\Administrator\source\repos\ColorMatch\ColorMatch\ColorMatch\obj\Debug\netstandard2.0\ref\ColorMatch.dll
+C:\Users\Administrator\source\repos\ColorMatch\ColorMatch\ColorMatch\obj\Debug\netstandard2.0\ColorMatch.pdb
+C:\Users\Administrator\source\repos\ColorMatch\ColorMatch\ColorMatch\obj\Debug\netstandard2.0\ColorMatch.csprojAssemblyReference.cache
